@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    var adapter = MovieAPIAdapter()
+
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -16,9 +18,16 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .task {
+            do {
+                try await adapter.fetch()
+            } catch {
+                print("ERROR : \(error.localizedDescription)")
+            }
+        }
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(adapter: MovieAPIAdapter())
 }

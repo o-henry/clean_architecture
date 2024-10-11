@@ -6,6 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BA2FB35C2CB90BD5005BB603 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2FB3562CB90BD5005BB603 /* Preview Assets.xcassets */; };
+		BA2FB35D2CB90BD5005BB603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2FB3582CB90BD5005BB603 /* Assets.xcassets */; };
+		BA2FB35E2CB90BD5005BB603 /* CAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2FB3592CB90BD5005BB603 /* CAApp.swift */; };
+		BA2FB35F2CB90BD5005BB603 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2FB35A2CB90BD5005BB603 /* ContentView.swift */; };
+		BA2FB3622CB90BD9005BB603 /* CATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2FB3602CB90BD9005BB603 /* CATests.swift */; };
+		BA2FB3662CB90BDC005BB603 /* CAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2FB3632CB90BDC005BB603 /* CAUITests.swift */; };
+		BA2FB3672CB90BDC005BB603 /* CAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2FB3642CB90BDC005BB603 /* CAUITestsLaunchTests.swift */; };
+		BAFAACFB2CBB804000BB36FB /* MovieAPIAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAACFA2CBB804000BB36FB /* MovieAPIAdapter.swift */; };
+		BAFD8CE42CB919E900AA7D8E /* Movie.json in Resources */ = {isa = PBXBuildFile; fileRef = BAFD8CE32CB919E200AA7D8E /* Movie.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BA2FB3392CB90A63005BB603 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +39,18 @@
 		BA2FB3282CB90A60005BB603 /* CA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2FB3382CB90A63005BB603 /* CATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2FB3422CB90A63005BB603 /* CAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2FB3562CB90BD5005BB603 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA2FB3582CB90BD5005BB603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA2FB3592CB90BD5005BB603 /* CAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAApp.swift; sourceTree = "<group>"; };
+		BA2FB35A2CB90BD5005BB603 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA2FB3602CB90BD9005BB603 /* CATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATests.swift; sourceTree = "<group>"; };
+		BA2FB3632CB90BDC005BB603 /* CAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAUITests.swift; sourceTree = "<group>"; };
+		BA2FB3642CB90BDC005BB603 /* CAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA2FB3682CB9188A005BB603 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		BAFAACFA2CBB804000BB36FB /* MovieAPIAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPIAdapter.swift; sourceTree = "<group>"; };
+		BAFD8CE22CB9195B00AA7D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BAFD8CE32CB919E200AA7D8E /* Movie.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Movie.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BA2FB32A2CB90A60005BB603 /* CA */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CA;
-			sourceTree = "<group>";
-		};
-		BA2FB33B2CB90A63005BB603 /* CATests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CATests;
-			sourceTree = "<group>";
-		};
-		BA2FB3452CB90A63005BB603 /* CAUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CAUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BA2FB3252CB90A60005BB603 /* Frameworks */ = {
@@ -75,9 +80,10 @@
 		BA2FB31F2CB90A60005BB603 = {
 			isa = PBXGroup;
 			children = (
-				BA2FB32A2CB90A60005BB603 /* CA */,
-				BA2FB33B2CB90A63005BB603 /* CATests */,
-				BA2FB3452CB90A63005BB603 /* CAUITests */,
+				BA2FB3682CB9188A005BB603 /* Config.xcconfig */,
+				BA2FB35B2CB90BD5005BB603 /* CA */,
+				BA2FB3612CB90BD9005BB603 /* CATests */,
+				BA2FB3652CB90BDC005BB603 /* CAUITests */,
 				BA2FB3292CB90A60005BB603 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,69 @@
 				BA2FB3422CB90A63005BB603 /* CAUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BA2FB3572CB90BD5005BB603 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BAFD8CE32CB919E200AA7D8E /* Movie.json */,
+				BA2FB3562CB90BD5005BB603 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA2FB35B2CB90BD5005BB603 /* CA */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAACF72CBB801900BB36FB /* Adapter */,
+				BAFD8CE22CB9195B00AA7D8E /* Info.plist */,
+				BA2FB3572CB90BD5005BB603 /* Preview Content */,
+				BA2FB3582CB90BD5005BB603 /* Assets.xcassets */,
+				BA2FB3592CB90BD5005BB603 /* CAApp.swift */,
+				BA2FB35A2CB90BD5005BB603 /* ContentView.swift */,
+			);
+			path = CA;
+			sourceTree = "<group>";
+		};
+		BA2FB3612CB90BD9005BB603 /* CATests */ = {
+			isa = PBXGroup;
+			children = (
+				BA2FB3602CB90BD9005BB603 /* CATests.swift */,
+			);
+			path = CATests;
+			sourceTree = "<group>";
+		};
+		BA2FB3652CB90BDC005BB603 /* CAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA2FB3632CB90BDC005BB603 /* CAUITests.swift */,
+				BA2FB3642CB90BDC005BB603 /* CAUITestsLaunchTests.swift */,
+			);
+			path = CAUITests;
+			sourceTree = "<group>";
+		};
+		BAFAACF72CBB801900BB36FB /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAACF82CBB802200BB36FB /* Out */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		BAFAACF82CBB802200BB36FB /* Out */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAACF92CBB803000BB36FB /* API */,
+			);
+			path = Out;
+			sourceTree = "<group>";
+		};
+		BAFAACF92CBB803000BB36FB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAACFA2CBB804000BB36FB /* MovieAPIAdapter.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +175,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BA2FB32A2CB90A60005BB603 /* CA */,
 			);
 			name = CA;
 			packageProductDependencies = (
@@ -130,9 +196,6 @@
 			dependencies = (
 				BA2FB33A2CB90A63005BB603 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				BA2FB33B2CB90A63005BB603 /* CATests */,
-			);
 			name = CATests;
 			packageProductDependencies = (
 			);
@@ -152,9 +215,6 @@
 			);
 			dependencies = (
 				BA2FB3442CB90A63005BB603 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BA2FB3452CB90A63005BB603 /* CAUITests */,
 			);
 			name = CAUITests;
 			packageProductDependencies = (
@@ -212,6 +272,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFD8CE42CB919E900AA7D8E /* Movie.json in Resources */,
+				BA2FB35C2CB90BD5005BB603 /* Preview Assets.xcassets in Resources */,
+				BA2FB35D2CB90BD5005BB603 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +299,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2FB35E2CB90BD5005BB603 /* CAApp.swift in Sources */,
+				BA2FB35F2CB90BD5005BB603 /* ContentView.swift in Sources */,
+				BAFAACFB2CBB804000BB36FB /* MovieAPIAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2FB3622CB90BD9005BB603 /* CATests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +317,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2FB3662CB90BDC005BB603 /* CAUITests.swift in Sources */,
+				BA2FB3672CB90BDC005BB603 /* CAUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +459,7 @@
 		};
 		BA2FB34D2CB90A63005BB603 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2FB3682CB9188A005BB603 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -398,6 +468,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CA/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -418,6 +489,7 @@
 		};
 		BA2FB34E2CB90A63005BB603 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2FB3682CB9188A005BB603 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -426,6 +498,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CA/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -446,6 +519,7 @@
 		};
 		BA2FB3502CB90A63005BB603 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2FB3682CB9188A005BB603 /* Config.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +538,7 @@
 		};
 		BA2FB3512CB90A63005BB603 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2FB3682CB9188A005BB603 /* Config.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +557,7 @@
 		};
 		BA2FB3532CB90A63005BB603 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2FB3682CB9188A005BB603 /* Config.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -498,6 +574,7 @@
 		};
 		BA2FB3542CB90A63005BB603 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2FB3682CB9188A005BB603 /* Config.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
