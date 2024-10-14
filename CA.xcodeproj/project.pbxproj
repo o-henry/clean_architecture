@@ -46,7 +46,7 @@
 		BA2FB3602CB90BD9005BB603 /* CATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATests.swift; sourceTree = "<group>"; };
 		BA2FB3632CB90BDC005BB603 /* CAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAUITests.swift; sourceTree = "<group>"; };
 		BA2FB3642CB90BDC005BB603 /* CAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BA2FB3682CB9188A005BB603 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		BA3B08DB2CBCD3610021DC0E /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		BAFAACFA2CBB804000BB36FB /* MovieAPIAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPIAdapter.swift; sourceTree = "<group>"; };
 		BAFD8CE22CB9195B00AA7D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BAFD8CE32CB919E200AA7D8E /* Movie.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Movie.json; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 		BA2FB31F2CB90A60005BB603 = {
 			isa = PBXGroup;
 			children = (
-				BA2FB3682CB9188A005BB603 /* Config.xcconfig */,
+				BA3B08DB2CBCD3610021DC0E /* Config.xcconfig */,
 				BA2FB35B2CB90BD5005BB603 /* CA */,
 				BA2FB3612CB90BD9005BB603 /* CATests */,
 				BA2FB3652CB90BDC005BB603 /* CAUITests */,
@@ -110,7 +110,7 @@
 		BA2FB35B2CB90BD5005BB603 /* CA */ = {
 			isa = PBXGroup;
 			children = (
-				BAFAACF72CBB801900BB36FB /* Adapter */,
+				BA3B08DC2CBCD39F0021DC0E /* NowPlaying */,
 				BAFD8CE22CB9195B00AA7D8E /* Info.plist */,
 				BA2FB3572CB90BD5005BB603 /* Preview Content */,
 				BA2FB3582CB90BD5005BB603 /* Assets.xcassets */,
@@ -135,6 +135,14 @@
 				BA2FB3642CB90BDC005BB603 /* CAUITestsLaunchTests.swift */,
 			);
 			path = CAUITests;
+			sourceTree = "<group>";
+		};
+		BA3B08DC2CBCD39F0021DC0E /* NowPlaying */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAACF72CBB801900BB36FB /* Adapter */,
+			);
+			path = NowPlaying;
 			sourceTree = "<group>";
 		};
 		BAFAACF72CBB801900BB36FB /* Adapter */ = {
@@ -459,7 +467,6 @@
 		};
 		BA2FB34D2CB90A63005BB603 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA2FB3682CB9188A005BB603 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -489,7 +496,6 @@
 		};
 		BA2FB34E2CB90A63005BB603 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA2FB3682CB9188A005BB603 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -519,7 +525,6 @@
 		};
 		BA2FB3502CB90A63005BB603 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA2FB3682CB9188A005BB603 /* Config.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -538,7 +543,6 @@
 		};
 		BA2FB3512CB90A63005BB603 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA2FB3682CB9188A005BB603 /* Config.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -557,7 +561,6 @@
 		};
 		BA2FB3532CB90A63005BB603 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA2FB3682CB9188A005BB603 /* Config.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -574,7 +577,6 @@
 		};
 		BA2FB3542CB90A63005BB603 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA2FB3682CB9188A005BB603 /* Config.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
