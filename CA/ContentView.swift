@@ -20,10 +20,8 @@ struct ContentView: View {
         .padding()
         .task {
             do {
-                try await adapter.fetch()
-            } catch {
-                print("ERROR : \(error.localizedDescription)")
-            }
+                try await adapter.fetchNowPlayingMovies()
+            } catch {}
         }
     }
 }
